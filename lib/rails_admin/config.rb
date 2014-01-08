@@ -208,11 +208,11 @@ module RailsAdmin
                 Dir.glob(app.root.join(load_path)).map do |load_dir|
                   Dir.glob(load_dir + "/**/*.rb").map do |filename|
                     # app/models/module/class.rb => module/class.rb => module/class => Module::Class
-                    lchomp(filename, "#{app.root.join(load_dir)}/").chomp('.rb').camelize
+                    lchomp(filename, "#{app.root.join(load_dir)}/").chomp('.rb').camelize unless load_dir.include?("spree")
                   end
                 end
               end
-            end.flatten
+            end.flatten.compact
           )
 
         excluded = (excluded_models.map(&:to_s) + ['RailsAdmin::History'])
