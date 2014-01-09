@@ -1,0 +1,14 @@
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-blind
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-bounce
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-clip
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-drop
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-explode
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-fade
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-fold
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-highlight
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-pulsate
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-scale
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-shake
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-slide
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect-transfer
+//= require rails_admin/jquery-ui-rails-3.0.0/jquery.ui.effect
